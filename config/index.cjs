@@ -10,10 +10,10 @@ const USER_CONFIG = {
   // 请将以下代码按照图示粘贴到对应位置
   USE_PASSAGE: 'push-plus',
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx9c5cd56d423d7e92',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '5e3afedcfbb85e07ee0f7663557d4137',
+  APP_SECRET: '',
 
   PROVINCE: '福建',
   CITY: '南平',
@@ -52,15 +52,9 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '生日', name: '宝贝', year: '1996', date: '04-19',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-        },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
