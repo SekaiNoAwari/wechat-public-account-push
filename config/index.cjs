@@ -10,10 +10,10 @@ const USER_CONFIG = {
   // 请将以下代码按照图示粘贴到对应位置
   USE_PASSAGE: 'push-plus',
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx4f092157a86b4504',
+  APP_ID: 'wx9c5cd56d423d7e92',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'd80e6b171054bc5dd575777b47e8867c',
+  APP_SECRET: '5e3afedcfbb85e07ee0f7663557d4137',
 
   PROVINCE: '福建',
   CITY: '南平',
