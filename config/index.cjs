@@ -7,25 +7,27 @@
  */
 const USER_CONFIG = {
 
+  // 请将以下代码按照图示粘贴到对应位置
+  USE_PASSAGE: 'push-plus',
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx4f092157a86b4504',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'd80e6b171054bc5dd575777b47e8867c',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '福建',
+  CITY: '南平',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '宝宝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oM0O66AldeNozyV5drFRtoCymUew',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      horoscopeDate: '04-19',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -42,9 +44,9 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2020-07-13' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2021-12-15' },
       ],
     },
   ],
