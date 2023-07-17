@@ -201,7 +201,7 @@ export const getHolidaytts = async () => {
   
   const url = 'https://wangxinleo.cn/api/wx-push/holiday/getHolidaytts'
 
-  const res = await axios.get(url, { httpsAgent: agent }).catch((err) => err)
+  const res = await axios.get(url).catch((err) => err)
 
   if (res.status === 200 && res.data && res.data.code === 0) {
     return res.data.tts
