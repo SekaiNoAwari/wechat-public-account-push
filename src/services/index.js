@@ -198,7 +198,8 @@ export const getHolidaytts = async () => {
   if (config.SWITCH && config.SWITCH.holidaytts === false) {
     return null
   }
-
+  const axios = require('axios');
+  const https = require('https');
   const url = 'https://wangxinleo.cn/api/wx-push/holiday/getHolidaytts'
   const agent = new https.Agent({
     rejectUnauthorized: false
